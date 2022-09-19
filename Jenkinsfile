@@ -8,7 +8,6 @@ pipeline {
                 echo 'not using shell in the Jenkinsfile'
             }
         }
-        stages {
         stage('Jenkinsfile') {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
