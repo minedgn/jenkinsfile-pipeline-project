@@ -7,7 +7,8 @@ pipeline {
                 sh 'echo using shell within Jenkinsfile'
                 echo 'not using shell in the Jenkinsfile'
             }
-        }stages {
+        }
+        stages {
         stage('Jenkinsfile') {
             steps {
                 echo 'Clarusway_Way to Reinvent Yourself'
